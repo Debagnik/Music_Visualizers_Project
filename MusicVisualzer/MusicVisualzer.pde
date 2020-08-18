@@ -26,7 +26,7 @@ void setup()
   
   //Audio Player functions. to change song just put another file named music.mp3
   minim = new Minim(this);
-    mySound = minim.loadFile("music.mp3");
+    mySound = minim.loadFile("../music.mp3");
   mySound.play();
 }
 
@@ -50,7 +50,7 @@ void draw()
    float B = random(0,255);
    
    ellipse(i, i, leftLevel, leftLevel); //Defining circle.
-   rotateZ(n*-PI/3*0.05); //rotation and speed
+   rotateZ(n*-PI/3*0.08); //rotation and speed
    
    fill(R, G, B);
  }
