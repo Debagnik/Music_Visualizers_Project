@@ -1,6 +1,4 @@
-Muzic Visualizer v1.0 (The spirals)
+Music Visualizers coded by Debagnik Kar
 
-OG Music: Ritviz - Udd Gye - Rak Kingabed edit, 
-Link: https://soundcloud.com/debagnik-kar-802197060/ritviz-uddgye-remade-rak-kingabed/s-B4zpu44wNDd
-youtube video: https://youtu.be/R_Ght_78vXM
-ProgLang used Processing3.
+MusicVix00
+Programming Langauge used Processing3. With ddf/Minim audio Library.
