@@ -10,7 +10,7 @@
 <ul>
 <li><b>File Name:</b> MusicVix00</li>
 <li><b>Song Name:</b> Ritviz - Udd Gye</li>
-<li><b>Preview Link:</b> <a href="https://youtu.be/v0IzcwqNRns">Here</a></li>
+<li><b>Preview Link:</b> <a href="https://youtu.be/v0IzcwqNRns?t=27">Here</a></li>
 <img src="images/1.jpg">
 </ul>
 </li>
@@ -19,7 +19,7 @@
 <ul>
 <li><b>File Name:</b> MusicVix01</b></li>
 <li><b>Song Name:</b> All of me - John Legend || French Mix || Rak Kingabed Edt</li>
-<li><b>Preview Link:</b> <a hrf="https://youtu.be/V6_t-n78YnI">here</a></li>
+<li><b>Preview Link:</b> <a hrf="https://youtu.be/V6_t-n78YnI?t=7">here</a></li>
 <img src="images/2.jpg">
 </ul>
 </li>
@@ -37,7 +37,7 @@
 <ul>
 <li><b>File Name:</b> MusicVix03</li>
 <li><b>Song Name:</b> Tony Igy - Astronomia || 80s Synthwave || Rak Kingabed Edit</li>
-<li><b>Preview Link:</b> <a href="https://youtu.be/Fo7G5acogP8">Here</a></li>
+<li><b>Preview Link:</b> <a href="https://youtu.be/Fo7G5acogP8?t=6">Here</a></li>
 <img src="images/4.jpg">
 </ul>
 </li>
