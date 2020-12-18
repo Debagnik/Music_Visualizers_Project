@@ -1,6 +1,5 @@
 # **Music Visualizer Using Processing3 and DDF.minim Library**
-[![issues](https://img.shields.io/github/issues/Debagnik/Music_Visualizers_Project)](https://github.com/Debagnik/Music_Visualizers_Project/issues)![Forks](https://img.shields.io/github/forks/Debagnik/Music_Visualizers_Project?style=plastic)
-[![Javadocs](http://www.javadoc.io/badge/net.compartmental.code/minim.svg)](http://www.javadoc.io/doc/net.compartmental.code/minim)
+[![issues](https://img.shields.io/github/issues/Debagnik/Music_Visualizers_Project)](https://github.com/Debagnik/Music_Visualizers_Project/issues) ![Forks](https://img.shields.io/github/forks/Debagnik/Music_Visualizers_Project?style=plastic) [![Javadocs](http://www.javadoc.io/badge/net.compartmental.code/minim.svg)](http://www.javadoc.io/doc/net.compartmental.code/minim)
 
 *[Music Visualizer](https://github.com/Debagnik/Music_Visualizers_Project)* is a set of Processing3 codes which displays music responsive beautiful visuals. As of now I have made 6 music visulizer with *[Processing3](https://processing.org/)* and *[ddf/minim java audio Library](https://github.com/ddf/Minim)* 
 
