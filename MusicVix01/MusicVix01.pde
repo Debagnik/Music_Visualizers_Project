@@ -80,7 +80,7 @@ void setup() {
     }
   }
   minim = new Minim(this);
-  song = minim.loadFile("music2.wav");
+  song = minim.loadFile("music.wav");
   in = minim.getLineIn(Minim.STEREO, 1024);
   song.play(0);
   factor = float(width)/song.bufferSize();
