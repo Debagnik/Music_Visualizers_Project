@@ -60,7 +60,6 @@ void draw() {
     
     // Sets the fill color of the circle
     fill(R, G, B);
-    
     // Increments the "n" variable for the next iteration
     n = n + 0.008;
     
