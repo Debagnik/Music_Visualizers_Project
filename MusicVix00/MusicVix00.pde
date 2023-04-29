@@ -13,7 +13,7 @@ import ddf.minim.signals.*;
 import ddf.minim.spi.*;
 import ddf.minim.ugens.*;
 Minim minim; // Object for the Minim library
-AudioPlayer mySound; // Object for the audio player
+AudioPlayer mySong; // Object for the audio player
 
 // Main setup
 void setup() {
@@ -24,8 +24,8 @@ void setup() {
   
   // Audio Player functions. To change song, just put another file named music.mp3
   minim = new Minim(this);
-  mySound = minim.loadFile("music.mp3"); // Loads the audio file
-  mySound.play(); // Starts playing the audio
+  mySong = minim.loadFile("music.mp3"); // Loads the audio file
+  mySong.play(); // Starts playing the audio
 }
 
 // Main artwork
@@ -39,13 +39,13 @@ void draw() {
   translate(width/2, height/2);
   
   // Loop through the audio buffer
-  for (int i = 0; i < mySound.bufferSize(); i++) {
+  for (int i = 0; i < mySong.bufferSize(); i++) {
     // Calculates the angle for the current iteration
     float angle = sin(i + (n-2)) * 40;
     float x = sin(radians(i)) * (n/angle);
     
     // Calculates the amplitude of the sound in the left channel
-    float leftLevel = mySound.left.level() * 20;
+    float leftLevel = mySong.left.level() * 20;
     
     // Generates random color values for the circle
     float R = random(0, 255);
@@ -56,7 +56,7 @@ void draw() {
     ellipse(i, i, leftLevel, leftLevel);
     
     // Rotates the origin for the next iteration
-    rotateZ(n * -PI/3 * 0.08);
+    rotateZ(n * PI/3 * 0.08);
     
     // Sets the fill color of the circle
     fill(R, G, B);
@@ -65,8 +65,8 @@ void draw() {
   // Increments the "n" variable for the next iteration
   n = n + 0.008;
   // Unused increments for "n3" and "n5" variables
-  n3 = n3 + speed2;
-  n5 = n5 + speed2;
+  //n3 = n3 + speed2;
+  //n5 = n5 + speed2;
 }
 
 //Noice and finished
