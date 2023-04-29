@@ -3,7 +3,7 @@
 
 // Variables 
 float n; // Used to control the rotation of the circles
-float n3, n5, speed2; // Unused variables
+//float n3, n5, speed2; // Unused variables
 
 // Importing libraries
 import ddf.minim.*;
@@ -48,9 +48,9 @@ void draw() {
     float leftLevel = mySong.left.level() * 20;
     
     // Generates random color values for the circle
-    float R = random(0, 255);
-    float G = random(0, 255);
-    float B = random(0, 255);
+    float R = 255;//random(0, 255);
+    float G = 255;//random(0, 255);
+    float B = 255;//random(0, 255);
     
     // Draws a circle at the current iteration's position
     ellipse(i, i, leftLevel, leftLevel);
@@ -60,13 +60,11 @@ void draw() {
     
     // Sets the fill color of the circle
     fill(R, G, B);
-  }
-  
-  // Increments the "n" variable for the next iteration
-  n = n + 0.008;
-  // Unused increments for "n3" and "n5" variables
+    // Increments the "n" variable for the next iteration
+    n = n + 0.008;
+    
+  }  // Unused increments for "n3" and "n5" variables
   //n3 = n3 + speed2;
   //n5 = n5 + speed2;
 }
-
 //Noice and finished

@@ -41,12 +41,14 @@ void setup()
 {
   //Display in 3D on the whole screen
   fullScreen(P3D);
+  noCursor();
  
   //Load the minim library
   minim = new Minim(this);
  
   //Load song/music/audio
   song = minim.loadFile("sys/music.wav");
+  song.loop();
   
   //Create the FFT object to analyze the song
   fft = new FFT(song.bufferSize(), song.sampleRate());
