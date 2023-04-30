@@ -26,8 +26,8 @@ float step = TWO_PI/340;
 float min;
 
 void setup() {
-  //size(400, 400);
-  fullScreen();
+  size(900, 900);
+  //$fullScreen();
   frameRate(60);
   noStroke();
   noSmooth();
